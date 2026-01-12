@@ -72,6 +72,6 @@ if __name__ == "__main__":
     sklearn_knn.fit(X_train, y_train)
     sk_preds = sklearn_knn.predict(X_test)
     
-    sk_acc = (sk_preds == y_test).sum() / len(y_preds)
+    sk_acc = (sk_preds == y_test).sum() / len(sk_preds)
     print(f"Accuracy with sklearn implementation: {(sk_acc * 100):.2f}%")
     print(f"Time taken (in seconds): {time() - start_time}")
