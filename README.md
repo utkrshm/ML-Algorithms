@@ -5,18 +5,23 @@ Implementation of ML Algorithms from scratch in numpy and testing them against i
 ## Roadmap
 
 - [x] K-Nearest Neighbours classifier
-- [ ] Linear Regression
-- [ ] Logistic Regression
+- [x] Linear Regression
+- [x] Logistic Regression
+- [ ] Ridge Regression
 - [ ] Decision Tree Classifier
 - [ ] Random Forest
 - [ ] Support Vector Machines
 - [ ] XGBoost
 - [ ] AdaBoost
-- [ ] Naive Bayes
+- [x] Naive Bayes
 - [ ] K-Means Clustering
-- [ ] Principal Component Analysis
+- [ ] DBSCAN Algorithm
+- [x] Principal Component Analysis
 - [ ] Linear Discriminant Analysis
-- [ ] Ridge Regression
+- [ ] T-distributed Stochastic Neighbour Embedding (t-SNE algorithm for Dimensionality Reduction)
+- [ ] Uniform Manifold Approximation and Projection (UMAP)
+- [ ] Exponential Smoothing for Time Series Forecasting
+- [ ] Autoregressive Integrated Moving Average (ARIMA) for Time Series Forecasting
 
 ## Note
 
