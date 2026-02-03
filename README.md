@@ -14,7 +14,7 @@ Implementation of ML Algorithms from scratch in numpy and testing them against i
 - [ ] XGBoost
 - [ ] AdaBoost
 - [x] Naive Bayes
-- [ ] K-Means Clustering
+- [x] K-Means Clustering
 - [ ] DBSCAN Algorithm
 - [x] Principal Component Analysis
 - [ ] Linear Discriminant Analysis
