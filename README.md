@@ -22,6 +22,7 @@ Implementation of ML Algorithms from scratch in numpy and testing them against i
 - [ ] Uniform Manifold Approximation and Projection (UMAP)
 - [ ] Exponential Smoothing for Time Series Forecasting
 - [ ] Autoregressive Integrated Moving Average (ARIMA) for Time Series Forecasting
+- [x] Gaussian Mixture Model (GMM)
 
 ## Note
 
