@@ -29,8 +29,8 @@ class GMM:
         probs = np.zeros((N, self.k))        # The shape of this is identical to self.pi
 
         for i in range(self.k):
-            print(self.means[i].shape, x.shape, self.cov_mat[i].shape, end="\t")
-            print(self.pi[i].shape, probs[:, i].shape, multivariate_normal.pdf(x, self.means[i], self.cov_mat[i]).shape)
+            # print(self.means[i].shape, x.shape, self.cov_mat[i].shape, end="\t")
+            # print(self.pi[i].shape, probs[:, i].shape, multivariate_normal.pdf(x, self.means[i], self.cov_mat[i]).shape)
             probs[:, i] = self.pi[i] * multivariate_normal.pdf(x, self.means[i], self.cov_mat[i])
 
         total_probs = probs.sum(axis=1, keepdims=True)
@@ -62,8 +62,7 @@ class GMM:
 
     def predict(self, x) -> np.ndarray:
         probs = self._expectation(x)
-        return np.argmax(x, axis=1)
-
+        return np.argmax(probs, axis=1)
 
 if __name__ == "__main__":
     from time import time
